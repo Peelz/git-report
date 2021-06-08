@@ -27,7 +27,7 @@ setuptools.setup(
             'gitreport = src.cli:main'
         ]
     },
-    packages=setuptools.find_packages(where="src"),
+    packages=setuptools.find_packages(),
     install_requires=requirements,
     python_requires=">=3.6",
     zip_safe=False

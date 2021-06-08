@@ -57,7 +57,3 @@ def main():
     workbook.close()
 
     print("Export success to", args.output_file)
-
-
-if __name__ == '__main__':
-    main()
