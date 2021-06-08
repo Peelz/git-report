@@ -30,5 +30,5 @@ optional arguments:
 # Unix
 gireport -p ~/path/to/project -m 5 -a peelz -o ./output.xlsx
 # Window
-gireport -p C:/path/to/project -m 5 -a peelz -o ./output.xlsx
+gireport -p C:\path\to\project -m 5 -a peelz -o output.xlsx
 ```
