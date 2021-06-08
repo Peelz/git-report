@@ -1,4 +1,4 @@
-# git-report
+# Git Report
 
 ## Installation
 ```shell

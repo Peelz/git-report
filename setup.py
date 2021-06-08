@@ -7,7 +7,7 @@ with open('requirements.txt') as f:
 
 setuptools.setup(
     name="gitreport",
-    version="0.0.4",
+    version="0.0.6",
     author="monopeelz",
     author_email="monopeelz@gmail.com",
     description="Productivity git report to avoid stupid job in every month",
