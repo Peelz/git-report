@@ -1,6 +1,12 @@
 # git-report
 
 ## Installation
+```shell
+# recommend to avoid cached
+pip install git+https://github.com/peelz/git-report
+# or install from repository 
+pip install gitreport
+```
 
 ## Parameters
 
@@ -17,4 +23,12 @@ optional arguments:
   --output-file OUTPUT_FILE, -o OUTPUT_FILE
                         end date format dd/mm/yyyy
 
+```
+
+## Example 
+```shell
+# Unix
+gireport -p ~/path/to/project -m 5 -a peelz -o ./output.xlsx
+# Window
+gireport -p C:/path/to/project -m 5 -a peelz -o ./output.xlsx
 ```
