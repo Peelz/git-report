@@ -7,7 +7,7 @@ with open('requirements.txt') as f:
 
 setuptools.setup(
     name="gitreport",
-    version="0.0.2",
+    version="0.0.4",
     author="monopeelz",
     author_email="monopeelz@gmail.com",
     description="Productivity git report to avoid stupid job in every month",
@@ -22,13 +22,13 @@ setuptools.setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
-    # package_dir={"": "src"},
     entry_points={
         'console_scripts': [
-            'gfg = vibhu4gfg.gfg:main'
+            'gitreport = src.cli:main'
         ]
     },
     packages=setuptools.find_packages(where="src"),
     install_requires=requirements,
     python_requires=">=3.6",
+    zip_safe=False
 )
